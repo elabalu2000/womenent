@@ -1,0 +1,93 @@
+body{
+    background-color: #000000;
+    color: burlywood;
+    padding:10px;
+    padding-right: 30px;
+}
+
+.header{
+    padding: 10px;
+    margin: 5px;
+    background: #212124;
+    color:burlywood;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    height: 35px;
+    width: 100%;
+    align-items: center;
+}
+
+.stickyHeader{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.header-title{
+    padding: 5px;
+}
+
+.stickyHeader + .header {
+    padding-top: 102px;
+}
+.dp{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    
+}
+.dis-pic{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+
+}
+
+.mainContent{
+    padding: 16px;
+}
+
+
+.footer{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background: #212124;
+    color: wheat;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    height: 35px;
+    width: 100%;
+    align-items: center;
+}
+
+.foot-link{
+    padding: 0px 10px;
+}
+
+.mainContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    position:absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+.subContent{
+    text-align: center;
+}
+
+.icons{
+    padding-right: 5px;
+}
+
+.college{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
